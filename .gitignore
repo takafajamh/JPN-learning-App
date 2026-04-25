@@ -1,0 +1,73 @@
+# ========================
+# Python / Backend
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda
+*.conda
+*.tar.bz2
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Alembic
+# (keep versions/ folder but ignore any local overrides)
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# FastAPI / uvicorn
+*.log
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# ========================
+# VSCode
+# ========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.swp
+*.tmp
+tmp/
